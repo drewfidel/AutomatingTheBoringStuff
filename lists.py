@@ -1,7 +1,5 @@
-foods = [1,2,3]
+import random
 
-snacks = foods
-snacks[0] = 0
 
 # print(foods)
 
@@ -13,8 +11,13 @@ def eggs(cheese):
 
 spam = [1,2,3]
 eggs(spam)
-print(spam)
+# print(spam)
 
 # prints [1, 2, 3, 4]
 
 # Variables dont contain lists, they contain referemces to lists
+
+lsitss = [0,1,2]
+# print(random.choice(lsitss))
+
+print("These are your numbers: ")

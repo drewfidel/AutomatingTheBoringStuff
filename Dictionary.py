@@ -13,4 +13,9 @@ myCat = {'size': 'fat', 'color': 'red'}
 # print(myCat)for k in myCat.keys():
 #     print(k)
 
-print(myCat.get('size')) # returns fat
+# print(myCat.get('size')) # returns fat
+# print(myCat.keys())
+
+myCat['size'] = 'skinny'
+# print(myCat)
+
